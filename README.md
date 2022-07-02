@@ -16,7 +16,9 @@ A widget that can be dragged and scrolled in a single gesture and snapped to a l
 Add it to your `pubspec.yaml` file:
 ```yaml
 dependencies:
-  sliding_sheet: ^0.5.2
+  sliding_sheet: 
+      git:
+        url: https://github.com/idabgsram/sliding_sheet.git
 ```
 Install packages from the command line
 ```
